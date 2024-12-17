@@ -80,11 +80,11 @@ function calculateRelativeVolume(symbol, timeframe) {
     relativeVolume,
   });
 
-  // Check if the relative volume is 5 times higher
+  
  // if (relativeVolume >= 5) {
    // console.log(`High Volume Detected for ${symbol} (${timeframe})`);
   //} else {
-    //console.log(`Normal Trading Continuing for ${symbol} (${timeframe})`);
+   
   //}
 
 
