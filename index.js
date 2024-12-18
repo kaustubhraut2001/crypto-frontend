@@ -17,8 +17,9 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://crypto-screener-highvolume.netlify.app/", // Replace with your React app's URL
+    origin: "https://crypto-screener-highvolume.netlify.app", // Replace with your React app's URL
     methods: ["GET", "POST", "DELETE", "UPDATE"],
+    credentials: true, // Allow cookies if needed
   },
 });
 
