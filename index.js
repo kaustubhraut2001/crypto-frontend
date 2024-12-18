@@ -31,7 +31,7 @@ const wsClient = new WebsocketClient({
     beautify: true,
 });
 
-// In-memory store for Kline volumes
+
 const volumeStore = {
     "1m": {},
     "5m": {},
